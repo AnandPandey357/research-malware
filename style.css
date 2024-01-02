@@ -1,0 +1,78 @@
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em; /* Adjusted font size for mobile */
+    }
+
+    .button button {
+        font-size: 2em; /* Adjusted font size for mobile */
+    }
+
+    .container {
+        padding: 10px; /* Adjusted padding for mobile */
+        border-radius: 10px; /* Adjusted border-radius for mobile */
+    }
+}
+body {
+    /* background-color:rgb(0, 0, 33); */
+    background-image: url(malware.jpg);
+}
+
+.container {
+    padding: 20px;
+     /* Adjusted width */
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+
+    color: white;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.button button {
+    padding-bottom: 50px;/* Adjust padding to make the button larger */
+    font-size:100px; /* Increase font size */
+    background-color: #1b9e2d;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    border: 3px solid red;
+    border-radius: 10px; /* Adjust border radius if needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+    background-color: #0056b3;
+}
+.button-link {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+
+
+
+
